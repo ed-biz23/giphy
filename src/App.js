@@ -5,7 +5,7 @@ import axios from "axios";
 import "./App.css";
 
 import SearchField from "./components/SearchField";
-import GifView from "./components/views/GifView";
+import GifView from "./views/GifView";
 
 const App = () => {
   const API_KEY = "1hOSiwyFAu6RUOiLerPpGfXzCVqILCrG";
