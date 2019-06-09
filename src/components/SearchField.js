@@ -25,7 +25,7 @@ const SearchField = props => {
     <div>
       <Jumbotron fluid style={jumboStyle}>
         <Container fluid>
-          <a href="/" style={{ textDecoration: "none" }}>
+          <a href="." style={{ textDecoration: "none" }}>
             <h1>Giphy</h1>
           </a>
           {/* <h1>Giphy</h1> */}
