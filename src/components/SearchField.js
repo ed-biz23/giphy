@@ -25,7 +25,10 @@ const SearchField = props => {
     <div>
       <Jumbotron fluid style={jumboStyle}>
         <Container fluid>
-          <h1>Giphy</h1>
+          <a href="/" style={{ textDecoration: "none" }}>
+            <h1>Giphy</h1>
+          </a>
+          {/* <h1>Giphy</h1> */}
           <Row>
             <Col sm="12" md={{ size: 6, offset: 3 }}>
               <InputGroup>
