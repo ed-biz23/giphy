@@ -40,7 +40,7 @@ const App = () => {
 
   const random = () => {
     setIsRandom(true);
-    setUrl(`http://api.giphy.com/v1/gifs/random?&api_key=${API_KEY}#${v4()}`);
+    setUrl(`https://api.giphy.com/v1/gifs/random?&api_key=${API_KEY}#${v4()}`);
     setViewing("Random");
   };
 
