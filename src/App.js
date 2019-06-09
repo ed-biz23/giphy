@@ -34,7 +34,9 @@ const App = () => {
   }, [url]);
 
   const search = value => {
-    setUrl(`http://api.giphy.com/v1/gifs/search?q=${value}&api_key=${API_KEY}`);
+    setUrl(
+      `https://api.giphy.com/v1/gifs/search?q=${value}&api_key=${API_KEY}`
+    );
     setViewing(value);
   };
 
